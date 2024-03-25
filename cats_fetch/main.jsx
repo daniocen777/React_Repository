@@ -1,5 +1,7 @@
-import { createRoot } from 'react-dom/client';
+import { createRoot } from "react-dom/client";
+import { App } from "./src/App";
 
-const root = createRoot(document.getElementById('app'));
+// BUSCAR INFO: mdn [lo que buscas]
+const root = createRoot(document.getElementById("app"));
 
-root.render(<h1>Holas mundos</h1>);
+root.render(<App />);
